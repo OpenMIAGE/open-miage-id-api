@@ -35,7 +35,7 @@ class OpenM_ID_Tool {
      * @return String the hashed signature
      */
     public static function getClientIp($algo){
-        return OpenM_Server::getClientIpCrypted($algo, $_SERVER['HTTP_USER_AGENT']);
+        return OpenM_Server::getClientIpCrypted($algo);
     }
     
     /**
