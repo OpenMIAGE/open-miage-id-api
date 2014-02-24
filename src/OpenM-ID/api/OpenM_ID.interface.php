@@ -37,10 +37,9 @@ interface OpenM_ID extends OpenM_Service {
     const URI_API = "OpenM-ID_URI";
     const LOGIN_API = "OpenM-ID_Login";
     const LOGOUT_API = "OpenM-ID_Logout";
-    const CREATE_API = "OpenM-ID_Create";
     const RETURN_TOKEN_PARAMETER = "API_SSO_TOKEN";
     const RETURN_SERVICE_ID_PARAMETER = "SERVICE_ID";
-    const VERSION = "1.0 beta2";
+    const VERSION = "1.0.3";
 
     /**
      * Install Service is required for all OpenM_SSO provider.
